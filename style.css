@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+
+body{
+    background-color: rgb(5, 5, 5);
+    min-height: 100vh;;
+}
+
+
+.container{
+    background: url(images/background.jpg);
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.8;
+}
+
+
+.logo{
+    display: flex;
+    width: 100%;
+    height: 6rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img{
+    height: 5rem;
+    margin-left: 3rem;
+}
+
+
+.logo p{
+    background: linear-gradient(to left, rgb(241, 232, 92), rgb(255, 89, 69));
+    border-radius: 30px;
+    padding: 0.8rem 1.4rem;
+    text-transform: capitalize;
+    word-spacing: 0.2rem;
+    margin-bottom: 5px;
+    margin-right: 3rem;
+}
+
+
+.logo p i{
+    display: none;
+    padding-left: 2rem;
+}
+
+.logo p:hover i{
+    display: inline-block;
+}
+
+
+.logo p:hover{
+    padding-right: 3rem;
+    transition: 1s;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+
+
+.nav ul li{
+    cursor: pointer;
+    width: 10rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+.nav ul li:hover{
+    background: linear-gradient(to left, rgb(255, 89, 69), rgb(241, 232, 92), rgb(255, 89, 69));
+    border-radius: 60px;
+    transition: 3s;
+}
+
+
+.quotes{
+    min-height: 15rem;
+    width: 75%;
+    margin: auto;
+    background-color: rgba(28, 28, 29, 0.3);
+    border-radius: 9px;
+}
+
+
+.quotes h3{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: 10rem;
+    font-size: 32px;
+    font-weight: 900;
+    color: aliceblue;
+}
+
+
+.quotes p{
+    text-align: center;
+    font-size: 24px;
+    color: whitesmoke;
+    margin-top: 2rem;
+    font-weight: 800;
+}
+
+
