@@ -12,6 +12,11 @@ body{
 }
 
 
+.top-page{
+    min-height: 100vh;
+}
+
+
 .container{
     background: url(images/background.jpg);
     background-size: cover;
@@ -106,8 +111,9 @@ body{
     display: flex;
     justify-content: center;
     text-transform: uppercase;
+    text-align: center;
     margin-top: 10rem;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 900;
     color: aliceblue;
 }
@@ -122,3 +128,22 @@ body{
 }
 
 
+.second-page{
+    height: fit-content;
+    background: white;
+}
+
+
+.second-page .future-trips h3{
+    font-size: 32px;
+    text-transform: uppercase;
+    padding: 3rem 0 0 2rem;
+    font-weight: 900;
+}
+
+
+.second-page .future-trips p{
+    font-size: 28px;
+    text-align: center;
+    padding: 3rem;
+}
