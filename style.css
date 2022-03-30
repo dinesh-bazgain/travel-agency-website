@@ -341,3 +341,25 @@ h3{
 .team:hover .back{
     transform: rotateY(-180deg);
 }
+
+.fourth-page{
+    padding: 2rem 0;
+    width: 90%;
+    margin: auto;
+}
+
+.fourth-page p{
+    font-size: 16px;
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.form{
+    height: 35rem;
+    width: 30%;
+    border: 3px solid snow;
+    margin: 3rem auto;
+    border-radius: 30px;
+    background-color: gray;
+}
