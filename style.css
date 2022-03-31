@@ -284,7 +284,6 @@ h3{
 
 
 .third-page{
-    background-color: rgb(86, 156, 218);
     padding-bottom: 5rem;
 }
 
@@ -344,8 +343,9 @@ h3{
 
 .fourth-page{
     padding: 2rem 0;
-    width: 90%;
+    background: url(images/ghale\ gaun/2.jpg);
     margin: auto;
+    background-size: cover;
 }
 
 .fourth-page p{
@@ -356,10 +356,87 @@ h3{
 }
 
 .form{
-    height: 35rem;
     width: 30%;
     border: 3px solid snow;
-    margin: 3rem auto;
+    margin: 1rem auto 3rem;
     border-radius: 30px;
     background-color: gray;
+    padding: 2rem;
+}
+
+.form label{
+    display: block;
+    padding: 1rem 0 .3rem 1rem;
+    font-size: 18px;
+    font-weight: 900;
+    color: aliceblue;
+}
+
+.form input{
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: .2rem 1rem;
+    height: 2.5rem;
+    width: 100%;
+    background: none;
+    color: rgb(57, 194, 240);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form input::placeholder{
+    color: aliceblue;
+}
+
+.form input:hover::placeholder{
+    color: lightblue;
+}
+
+.form input:hover:focus::placeholder{
+    color: rgb(57, 194, 240);
+}
+
+.form .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form button{
+    width: 50%;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 30px;
+    height: 30px;
+    margin-top: 3rem;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+
+.form input:hover{
+    border: 3px solid lightblue;
+}
+
+.form input:hover:focus{
+    border: 3px solid rgb(57, 194, 240);
+    outline: none;
+}
+
+.form button:hover{
+    border: 3px solid lightblue;
+    font-size: 16px;
+    font-weight: 900;
+    color: lightblue;
+}
+
+.form button:hover:focus{
+    border: 3px solid rgb(57, 194, 240);
+    outline: none;
+    color: rgb(57, 194, 240);
+    font-size: 16px;
+    font-weight: 900;
 }
