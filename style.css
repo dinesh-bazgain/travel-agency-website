@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: cursive;
+    scroll-behavior: smooth;
 }
 
 
@@ -68,12 +69,17 @@ body{
 
 
 .nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 0;
-    margin-top: 0;
     text-transform: uppercase;
+    position: fixed;
+    left: 50%;
+    top: 5%;
+    transform: translateX(-50%);
+    background-color: aliceblue;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    opacity: 70%;
 }
 
 
@@ -85,16 +91,22 @@ body{
 
 .nav ul li{
     cursor: pointer;
-    width: 10rem;
+    padding: .5rem 2.5rem;
     font-weight: 900;
     text-align: center;
 }
 
 
+.nav ul a{
+    text-decoration: none;
+    color: black;
+}
+
+
 .nav ul li:hover{
-    background: linear-gradient(to left, rgb(255, 89, 69), rgb(241, 232, 92), rgb(255, 89, 69));
     border-radius: 60px;
-    transition: 3s;
+    transition: 1s;
+    background-color: rgb(128, 128, 128, 0.4);
 }
 
 
@@ -400,10 +412,11 @@ input::-webkit-inner-spin-button {
     color: rgb(57, 194, 240);
 }
 
-.form .btn{
+.form .btn a{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
 .form button{
