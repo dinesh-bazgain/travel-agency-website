@@ -111,11 +111,11 @@ body{
 
 
 .quotes{
-    min-height: 15rem;
     width: 75%;
-    margin: auto;
+    margin: 10rem auto;
     background-color: rgba(28, 28, 29, 0.3);
     border-radius: 9px;
+    padding: 0 0 1rem 0;
 }
 
 
@@ -124,8 +124,7 @@ body{
     justify-content: center;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 10rem;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 900;
     color: aliceblue;
 }
