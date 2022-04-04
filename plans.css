@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(65, 73, 99);
+}
+.container{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+h1{
+    font-size: 42px;
+    padding: 50px 0;
+    color: antiquewhite;
+}
+.price-row{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.price-col{
+    background-color: rgb(34, 53, 77);
+    border-radius: 15px;
+    padding: 10px 15px;
+    min-width: 250px;
+}
+.price-col h2{
+    font-size: 22px;
+    color: antiquewhite;
+    padding-top: 20px;
+}
+.price-col h3{
+    font-size: 44px;
+    color: beige;
+    padding: 10px 0;
+}
+.price-col h3 span{
+    font-size: 20px;
+}
+.price-col ul{
+    list-style: none;
+    text-align: left;
+}
+.price-col ul li{
+    margin: 10px 0;
+    color: blanchedalmond;
+    font-size: 16px;
+}
+.price-col ul li::before{
+    content: '\2022';
+    color: rgb(243, 158, 61);
+    padding-right: 15px;
+}
+button{
+    margin: 20px 0;
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid rgb(248, 93, 76);
+    border-radius: 50px;
+    color: aliceblue;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+button:hover{
+    background: rgb(248, 93, 76);
+}
